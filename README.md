@@ -4,7 +4,7 @@ This template imitates the [official cover page](https://www.tuwien.ac.at/dekana
 
 ## Getting started
 
-Clone this repository and compile the file `main.tex` with pdflatex. Your output should look like [this](main.pdf).
+Clone this repository and compile the file `main.tex` with LuaTeX (i.e., execute `lualatex main.tex`). Your output should look like [this](main.pdf).
 
 ## Personalizing the template
 
