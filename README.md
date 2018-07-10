@@ -27,6 +27,11 @@ In order to personalize this template, just redefine the corresponding commands 
 
 > If you want to make further changes to the title page (e.g., adapt the text to the gender of the author/supervisor/...), the above definitions will not suffice and you have to find the corresponding locations in the document.
 
+## Compiling the titlepage
+
+In a bash terminal, run `latexmk -pvc -pdf -lualatex main.tex` for optimal results.
+
 ## Contributing
 
 Improvements to this template are always welcome! Feel free to open a pull request or an issue anytime.
+
