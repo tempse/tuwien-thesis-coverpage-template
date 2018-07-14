@@ -69,13 +69,13 @@
 
   \noindent ausgef\"{u}hrt am Institut f\"{u}r \thesisinstitute\\
   der Fakult\"{a}t f\"{u}r \thesisfaculty{} der \thesisuniversity\\
-  (in Zusammenarbeit mit \thesiscollaboration{})
+  \ifdefempty{\thesiscollaboration}{}{(in Zusammenarbeit mit \thesiscollaboration{})}
 
   \vspace{0.6cm}
 
   \noindent Betreuung\\
   Betreuer/in: \thesissupervisor{}\\
-  Mitwirkung: \thesiscosupervisor{}
+  \ifdefempty{\thesiscosupervisor}{}{Mitwirkung: \thesiscosupervisor{}}
 
   \vspace{1.1cm}
   \noindent \thesisplace{}, \thesisdate \hspace{1cm}%
