@@ -35,3 +35,4 @@ In a bash terminal, run `latexmk -pvc -pdf -lualatex main.tex` for optimal resul
 
 Improvements to this template are always welcome! Feel free to open a pull request or an issue anytime.
 
+Many thanks to [all who have already contributed](https://github.com/tempse/tuwien-thesis-coverpage-template/graphs/contributors)!
